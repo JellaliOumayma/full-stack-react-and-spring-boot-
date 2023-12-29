@@ -5,7 +5,7 @@ FROM openjdk:16
 WORKDIR /app
 
 # Copier le fichier JAR de l'application Spring Boot dans le conteneur
-COPY target/springbootrestapi-1.0.0.jar /app/application.jark
+COPY target/springbootrestapi-1.0.0.jar /app/application.jarkj
 
 
 # Exposer le port sur lequel l'application Spring Boot fonctionne (par exemple, 8080)
